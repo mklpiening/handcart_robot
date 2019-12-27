@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>handcart_bringup</name>
+  <version>0.0.0</version>
+  <description>The handcart_bringup package</description>
+
+  <maintainer email="mklpiening@uos.de">Malte kl. Piening</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>
