@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-    <node pkg="handcart_driver" type="handcart" name="handcart_driver" output="screen">
+    <node pkg="handcart_driver" type="handcart_motor" name="handcart_driver" output="screen">
         <param name="port" value="/dev/vesc"/>
         <param name="baudrate" value="115200"/>
         <param name="max_rpm" value="5000"/>
