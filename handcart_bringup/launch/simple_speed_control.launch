@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-    <include file="handcart_driver.launch"/>
+    <include file="$(find handcart_bringup)/launch/handcart_driver.launch"/>
 
-    <include file="shaft_angle_controller.launch"/>
+    <include file="$(find handcart_bringup)/launch/shaft_angle_controller.launch"/>
 </launch>
