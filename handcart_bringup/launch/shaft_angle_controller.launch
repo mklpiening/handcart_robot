@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
     <node pkg="handcart_shaft" type="handcart_shaft" name="shaft" output="screen">
-        <param name="port" value="/dev/shaft"/>
+        <param name="port" value="/dev/ttyUSB0"/>
         <param name="baudrate" value="115200"/>
         <param name="angle_frame" value=""/>
         <param name="angle_topic" value="shaft_angle"/>
