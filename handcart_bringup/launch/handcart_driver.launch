@@ -3,8 +3,8 @@
     <node pkg="handcart_driver" type="handcart_motor" name="handcart_driver" output="screen">
         <param name="port" value="/dev/vesc"/>
         <param name="baudrate" value="115200"/>
-        <param name="max_speed" value="2.0"/>
-        <param name="speed_scale_factor" value="642.857"/>
+        <param name="max_speed" value="2.5"/>
+        <param name="speed_scale_factor" value="-642.857"/>
         <param name="wheel_circumference" value="0.638"/>
         <param name="cmd_topic" value="ackermann_cmd"/>
     </node>
