@@ -7,7 +7,7 @@
         <param name="shaft_topic" value="shaft_rotation"/>
     </node>
     
-    <node pkg="handcart_shaft_angle_controller" type="handcart_shaft_angle_controller" name="shaft_angle_controller" output="screen">
+    <node pkg="handcart_shaft_angle_controller" type="angle_controller" name="shaft_angle_controller" output="screen">
         <param name="angles_topic" value="shaft_rotation"/>
         <param name="cmd_topic" value="ackermann_cmd"/>
         <param name="max_speed" value="3.5"/>
